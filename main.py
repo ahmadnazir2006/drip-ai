@@ -260,4 +260,5 @@ with gr.Blocks(title="AI Stylist", theme=gr.themes.Soft()) as demo:
         outputs=[before_img, after_img, result_status]
     )
 
-demo.launch()
+demo.launch(  server_name="0.0.0.0",
+    server_port=int(os.environ.get("PORT", 10000)))
