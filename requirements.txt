@@ -1,0 +1,7 @@
+gradio
+groq
+ddgs
+gradio_client
+python-dotenv
+requests
+Pillow
